@@ -1,0 +1,135 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+*{
+    text-decoration:none;
+}
+/* For navigation */
+.header{
+    display:flex;
+    justify-content: space-between;
+
+}
+.header img{
+    width:120px;
+    height: 120px;
+}
+
+.navigation{
+    display:flex;
+    
+    }
+
+    .navigation li{
+        list-style-type: none;
+        font-weight: bold;
+        padding:25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+/* For border lines */
+.border-pro{
+    border-bottom: 2px solid lightgrey;
+    width:70%;
+    margin:20px 0px 20px 5px;
+}
+
+.border-pro-2{
+    border-bottom: 2px solid lightgrey;
+    width:100%;
+    margin:20px 0px 20px 5px;
+}
+
+.border-pro-3{
+    border-bottom: 2px solid lightgrey;
+    width:100%;
+    margin:50px 0px 50px 5px;
+}
+
+section img{
+    border-left:6px solid lightgrey;
+    border-right:6px solid lightgrey;
+}
+
+h1{
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button{
+    background-color:#F2849E;
+    padding:15px 80px;
+    color:white;
+    font-weight: bold;
+    border:none;
+    font-size:20px;
+}
+button:hover{
+    background-color:#EC4B74;
+}
+
+.product{
+    display:flex;
+    flex:1;
+}
+.product-details{
+    flex:2;
+    margin-left: 30px;
+}
+
+.container{
+    max-width:930px;
+    margin:auto;
+}
+/* Font Awesome icons css */
+.fas{
+    color:#F8B732;
+}
+
+.cart-2{
+    color:white;
+    padding:10px;
+}
+
+.product-details-heading{
+    letter-spacing: 3px;
+    font-weight:bold;
+}
+
+.pro-detail{
+    display: flex;
+    flex-direction: row;
+}
+.pro-detail-p{
+    padding:4px;
+}
+
+.about{
+    font-size:18px;
+}
+.about-heading{
+    font-weight: lighter;
+}
+.about-paragraph{
+    margin-left:15px;
+}
+span{
+    font-weight:bold;
+}
+ .red-text-1{
+    color:#B12604;
+    font-weight:bold;
+}
+.red-text-2{
+    font-weight: lighter;
+    color:#B12604;
+}
+.product-items{
+    display:flex;
+}
+.product-items-2{
+    padding:10px;
+}
+© 2019 GitHub, Inc.
